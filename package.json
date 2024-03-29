@@ -1,0 +1,28 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naturuplift/SocialNetworkAPI.git"
+  },
+  "author": "Arnaldo Sepulveda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naturuplift/SocialNetworkAPI/issues"
+  },
+  "homepage": "https://github.com/naturuplift/SocialNetworkAPI#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
