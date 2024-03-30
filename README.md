@@ -152,11 +152,11 @@ Below are sample screenshots showcasing the application routes functionality.
 
 **POST** CREATE a Thought:
 
-![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/e4b82f30-99a3-47a2-a123-ce43ec112e09)
+![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/64ac0904-1f76-4b56-a6ab-bf3420045293)
 
 **POST** CREATE Reaction:
 
-![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/3777706a-b497-4335-ae25-f080e25c72f9)
+![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/a81436f9-f872-485f-ae19-2bce890168d1)
 
 **POST** Add Friend:
 
@@ -164,11 +164,11 @@ Below are sample screenshots showcasing the application routes functionality.
 
 **PUT** Update a User (by Id):
 
-![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/1c1178f7-5180-48dc-ad52-87698e1f6866)
+![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/b545f78a-549e-43d5-8e06-8720fb9268e9)
 
 **PUT** Update a Thought (by Id):
 
-![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/efeee718-4ef5-4ef7-b7c8-9252fc52595e)
+![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/e28ef991-25d9-4dac-8546-ce2df4ca900a)
 
 **DELETE** Delete a User (by Id):
 
