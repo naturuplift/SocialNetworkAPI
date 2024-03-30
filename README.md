@@ -112,7 +112,7 @@ Once the server is running, you can use an API client like [Insomnia][insomnia] 
 
 - **/api/users routes** for users display data in a formatted JSON.
 
-![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/81daed6a-afbc-465c-9030-a7cf7486ee74)
+![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/3b6b36f1-db66-4d78-8ab6-3e1ebbdbde25)
 
 - **/api/thoughts routes** for thoughts display data in a formatted JSON.
 
@@ -132,7 +132,7 @@ Below are sample screenshots showcasing the application routes functionality.
 
 **GET** Find All Users:
 
-![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/e63a5408-bf21-4ccd-ad08-c0005458f97d)
+![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/f8c05ec6-e8d1-41fc-809d-e622d6bb2758)
 
 **GET** Find a User (by Id):
 
