@@ -1,11 +1,10 @@
 // Include packages needed for this application
 // Import Router function from express package
 import { Router } from 'express';
-const router = Router();
-
 // Import API routes from ./api directory
 import apiRoutes from './api/index.js';
 
+const router = Router();
 // Use API routes for requests to /api
 router.use('/api', apiRoutes);
 

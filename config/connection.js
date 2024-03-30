@@ -6,10 +6,7 @@ const { connect, connection } = mongoose;
 // connect to the database
 const connectionString = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/socialNetworkDB";
 
-connect(connectionString, {
-	useNewUrlParser: true,
-	useUnifiedTopology: true,
-});
+connect(connectionString);
 
 // Use to debug log mongo queries being executed
 mongoose.set('debug', true);

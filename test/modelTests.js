@@ -1,4 +1,4 @@
-// import datatypes from mongoose package
+// Include packages needed for this application
 import mongoose from 'mongoose';
 import { expect } from 'chai';
 // import models
@@ -109,5 +109,3 @@ describe('Reaction Model Tests', () => {
         expect(savedReaction.username).to.equal(reactionData.username);
     });
 });
-
-// Add more tests i.e.: routes
