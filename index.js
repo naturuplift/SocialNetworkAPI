@@ -1,9 +1,9 @@
 // Include packages needed for this application
-const express = require('express');
+import express from 'express';
 // Imports the routing files from ./routes directory
-const routes = require('./routes');
+import routes from './routes/index.js';
 // import sequelize connection
-const sequelize = require('./config/connection');
+import db from './config/connection.js';
 
 // initializes a new instance of the Express application
 const app = express();
@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(routes);
 
 // sync mongoose models to the database
-db.once("open", () => {
+db.once('open', () => {
   app.listen(PORT, () => {
       console.log(`App listening on port ${PORT}!`);
   });

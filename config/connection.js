@@ -1,6 +1,7 @@
 // Include packages needed for this application
 //  to load environment variables from a .env file
-const { connect, connection} = require("mongoose");
+import pkg from 'mongoose';
+const { connect, connection } = pkg;
 
 // connect to the database
 const connectionString =
@@ -16,4 +17,4 @@ mongoose.set('debug', true);
 
 // configured mongoose instance exported
 // making it available for use in app
-module.exports = connection;
+export default connection;
