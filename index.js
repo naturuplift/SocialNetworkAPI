@@ -2,7 +2,7 @@
 import express from 'express';
 // Imports the routing files from ./routes directory
 import routes from './routes/index.js';
-// import sequelize connection
+// import mongoose connection
 import db from './config/connection.js';
 
 // initializes a new instance of the Express application
