@@ -112,47 +112,79 @@ Once the server is running, you can use an API client like [Insomnia][insomnia] 
 
 - **/api/users routes** for users display data in a formatted JSON.
 
+![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/d3f30b7f-6368-46f6-bb1b-ae74f0e6c1fa)
 
 - **/api/thoughts routes** for thoughts display data in a formatted JSON.
 
+![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/e0f7e960-4532-431a-9ac8-5c30a35d0bd1)
 
 - **/api/thoughts/:thoughtId/reactions routes** for reactions display data in a formatted JSON.
 
+![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/9801e359-d1e4-41b6-a715-d77c9230049f)
 
 - **/api/users/:userId/friends/:friendId routes** for friends display data in a formatted JSON.
 
+![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/a6d89277-8cf4-4371-8602-6f4eea112714)
 
 ### Application Functionality
 
 Below are sample screenshots showcasing the application routes functionality.
 
-**GET** Fing All Users:
+**GET** Find All Users:
+
+![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/e63a5408-bf21-4ccd-ad08-c0005458f97d)
 
 **GET** Find a User (by Id):
 
+![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/47e2caf6-ea42-4d0e-a738-838b6ae39d40)
+
 **GET** Find All Thoughts:
+
+![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/0dc85166-1a0f-4482-898a-7d821ff9c301)
 
 **GET** Find Thoughts (by Id):
 
+![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/308cc09a-24f0-4a88-95f5-702356e51af9)
+
 **POST** CREATE a New User:
+
+![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/8c89545f-dd16-400a-adfd-d2fcf84bac99)
 
 **POST** CREATE a Thought:
 
+![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/e4b82f30-99a3-47a2-a123-ce43ec112e09)
+
 **POST** CREATE Reaction:
+
+![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/3777706a-b497-4335-ae25-f080e25c72f9)
 
 **POST** Add Friend:
 
+![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/6eb0ad13-183a-4c4b-abc1-c5a5665456dc)
+
 **PUT** Update a User (by Id):
+
+![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/1c1178f7-5180-48dc-ad52-87698e1f6866)
 
 **PUT** Update a Thought (by Id):
 
+![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/efeee718-4ef5-4ef7-b7c8-9252fc52595e)
+
 **DELETE** Delete a User (by Id):
+
+![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/030f2c5d-d00b-45a5-8fe6-424ad25b7fff)
 
 **DELETE** Delete a Thought (by Id):
 
+![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/5eb9eb4f-c6be-4a2b-b6c8-ff7bb9c64185)
+
 **DELETE** Remove Reaction (by Id):
 
+![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/a75c1d72-d18a-4d71-b32b-ccff2e679b87)
+
 **DELETE** Remove Friend (by Id):
+
+![image](https://github.com/naturuplift/SocialNetworkAPI/assets/23546356/ecfe2a28-d5db-4c81-8907-305e7b73d225)
 
 ## Database Models
 
@@ -241,7 +273,7 @@ To contribute to this project, please create a pull request. For major changes, 
 
 This project is licensed under the MIT License. See the [LICENSE][MIT] file for details.
 
-[social-network-api-video]: <>
+[social-network-api-video]: <https://drive.google.com/file/d/1mo3JPEx-SQKjiKefqo8halnPPza9u_U3/view>
 [node-js]: <https://nodejs.org/>
 [mongo-db]: <https://www.mongodb.com/>
 [insomnia]: <https://insomnia.rest/>
