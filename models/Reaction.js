@@ -1,5 +1,7 @@
 // import datatypes from mongoose package
 import mongoose from 'mongoose';
+// import moment library to farmat local timestamp
+import moment from 'moment-timezone';
 
 // Schema to create Reaction model
 const ReactionSchema = new mongoose.Schema(
@@ -21,7 +23,7 @@ const ReactionSchema = new mongoose.Schema(
     createdAt: {
       type: Date,
       default: Date.now,
-      get: (timestamp) => new Date(timestamp).toLocaleString(),
+      get: (timestamp) => moment(timestamp).tz('America/Halifax').format('YYYY-MM-DD HH:mm:ss'),
     },
   },
   // Schema options

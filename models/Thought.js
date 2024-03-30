@@ -2,6 +2,8 @@
 import mongoose from 'mongoose';
 // import Reaction schema
 import ReactionSchema from './Reaction.js';
+// import moment library to farmat local timestamp
+import moment from 'moment-timezone';
 
 // Schema to create Thought model
 const ThoughtSchema = new mongoose.Schema(
@@ -16,7 +18,7 @@ const ThoughtSchema = new mongoose.Schema(
     createdAt: {
       type: Date,
       default: Date.now,
-      get: (timestamp) => new Date(timestamp).toLocaleString(),
+      get: (timestamp) => moment(timestamp).tz('America/Halifax').format('YYYY-MM-DD HH:mm:ss'),
     },
     username: {
       type: String,
