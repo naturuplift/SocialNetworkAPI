@@ -1,8 +1,9 @@
-// import model and datatypes from sequelize package
+// import datatypes from mongoose package
 import mongoose from 'mongoose';
 
 // Schema to create User model
 const UserSchema = new mongoose.Schema(
+  // Schema definition
   {
     username: {
       type: String,
@@ -32,6 +33,7 @@ const UserSchema = new mongoose.Schema(
       },
     ],
   },
+  // Schema options
   {
     toJSON: {
       virtuals: true,
@@ -46,4 +48,4 @@ UserSchema.virtual('friendCount').get(function () {
 });
 
 // User exported making it available for use in app
-export default mongoose.model('User', userSchema);
+export default mongoose.model('User', UserSchema);

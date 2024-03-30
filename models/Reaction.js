@@ -1,11 +1,12 @@
-// import model and datatypes from sequelize package
+// import datatypes from mongoose package
 import mongoose from 'mongoose';
 
 // Schema to create Reaction model
 const ReactionSchema = new mongoose.Schema(
+  // Schema definition
   {
     reactionId: {
-      type: Schema.Types.ObjectId,
+      type: mongoose.Schema.Types.ObjectId,
       default: () => new mongoose.Types.ObjectId(),
     },
     reactionBody: {
@@ -19,10 +20,11 @@ const ReactionSchema = new mongoose.Schema(
     },
     createdAt: {
       type: Date,
-      default: Date.now(),
+      default: Date.now,
       get: (timestamp) => new Date(timestamp).toLocaleString(),
     },
   },
+  // Schema options
   {
     toJSON: {
       getters: true,

@@ -1,10 +1,11 @@
-// import model and datatypes from sequelize package
+// import datatypes from mongoose package
 import mongoose from 'mongoose';
 // import Reaction schema
-import reactionSchema from './Reaction.js';
+import ReactionSchema from './Reaction.js';
 
 // Schema to create Thought model
 const ThoughtSchema = new mongoose.Schema(
+  // Schema definition
   {
     thoughtText: {
       type: String,
@@ -14,7 +15,7 @@ const ThoughtSchema = new mongoose.Schema(
     },
     createdAt: {
       type: Date,
-      default: Date.now(),
+      default: Date.now,
       get: (timestamp) => new Date(timestamp).toLocaleString(),
     },
     username: {
@@ -22,8 +23,9 @@ const ThoughtSchema = new mongoose.Schema(
       required: true,
     },
     // Array of nested reaction documents
-    reactions: [reactionSchema],
+    reactions: [ReactionSchema],
   },
+  // Schema options
   {
     toJSON: {
       virtuals: true,
@@ -39,4 +41,4 @@ ThoughtSchema.virtual('reactionCount').get(function () {
 });
 
 // Thought exported making it available for use in app
-export default mongoose.model('Thought', thoughtSchema);
+export default mongoose.model('Thought', ThoughtSchema);

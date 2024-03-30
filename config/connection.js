@@ -1,11 +1,10 @@
 // Include packages needed for this application
 //  to load environment variables from a .env file
-import pkg from 'mongoose';
-const { connect, connection } = pkg;
+import mongoose from 'mongoose';
+const { connect, connection } = mongoose;
 
 // connect to the database
-const connectionString =
-	process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/studentsDB";
+const connectionString = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/socialNetworkDB";
 
 connect(connectionString, {
 	useNewUrlParser: true,

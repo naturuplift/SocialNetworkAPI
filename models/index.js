@@ -1,7 +1,7 @@
 // import models
-import Reaction from './Reaction';
 import Thought from './Thought';
 import User from './User';
+import ReactionSchema from './Reaction';
 
 // Export models
-exports = { Reaction, Thought, User };
+export { Thought, User, ReactionSchema };
