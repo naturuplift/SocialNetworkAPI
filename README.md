@@ -229,7 +229,6 @@ SocialNetworkAPI/
 │   └── seed.js                # Contains seed data for the database
 ├── .gitignore                 # Specifies intentionally untracked files to ignore
 ├── package.json               # Defines project and its dependencies
-├── package-lock.json          # Auto-generated file for any operations where npm modifies the node_modules tree or package.json
 ├── README.md                  # Project description and guidelines
 └── server.js  
 ```
