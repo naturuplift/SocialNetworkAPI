@@ -4,7 +4,7 @@ import mongoose from 'mongoose';
 const { connect, connection } = mongoose;
 
 // connect to the database
-const connectionString = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/socialNetworkDB";
+const connectionString = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/socialnetworkDB";
 
 connect(connectionString);
 
