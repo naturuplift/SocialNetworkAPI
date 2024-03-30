@@ -8,7 +8,7 @@ import db from './config/connection.js';
 // initializes a new instance of the Express application
 const app = express();
 // set port the server will listen to
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3002;
 
 // express app to recognize incoming requests as JSON objects
 app.use(express.json());

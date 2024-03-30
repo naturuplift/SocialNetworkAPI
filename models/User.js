@@ -39,6 +39,7 @@ const UserSchema = new mongoose.Schema(
       virtuals: true,
     },
     id: false,
+    versionKey: false
   }
 );
 

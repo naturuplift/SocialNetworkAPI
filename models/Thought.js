@@ -32,6 +32,7 @@ const ThoughtSchema = new mongoose.Schema(
       getters: true,
     },
     id: false,
+    versionKey: false
   }
 );
 
